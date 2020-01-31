@@ -5,7 +5,7 @@ spring:
     hikari:
       connectionTimeout: 20000
       maximumPoolSize: 5
-    url: jdbc:postgresql://localhost:2222/pilots
+    url: jdbc:postgresql://localhost:5432/pilots
     username: sa
     password: sa
   jpa:
