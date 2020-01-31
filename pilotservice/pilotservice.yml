@@ -6,8 +6,8 @@ spring:
       connectionTimeout: 20000
       maximumPoolSize: 5
     url: jdbc:postgresql://localhost:5432/pilots
-      username: sga
-      password: sga
+    username: sga
+    password: sga
   jpa:
     hibernate:
       ddl-auto: create
