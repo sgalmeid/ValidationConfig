@@ -11,7 +11,4 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
-security:
-  oauth2:
-    resource:
-      user-info-uri: http://localhost:8088/user
+
