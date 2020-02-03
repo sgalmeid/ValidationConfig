@@ -4,3 +4,10 @@ security:
       user-info-uri: http://authservice:8080/user
       
 hystrix.shareSecurityContext: true
+
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://eurekaserver:8761/eureka
